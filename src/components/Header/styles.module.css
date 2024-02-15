@@ -6,6 +6,8 @@
     border-bottom: #f2f4f5 1px solid;
     flex-direction: column;
     gap: 12px;
+    max-width: 500px;
+    margin: auto;
 }
 
 .title {
