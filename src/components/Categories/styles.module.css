@@ -1,6 +1,8 @@
 .categories {
   display: flex;
-  width: 100%;
+  width: calc(100% + 48px);
+  margin-left: -24px;
+  padding-left: 24px;
   gap: 8px;
   align-items: flex-start;
   box-sizing: border-box;
@@ -17,11 +19,12 @@
   border: none;
   border-radius: 32px;
   background-color: #f2f4f5;
+  cursor: pointer;
 }
 
 .active {
-  background-color: #e7e7ff;
-  color: #6b4eff;
+  background-color: #caf0f8;
+  color: #0077b6;
 }
 
 ::-webkit-scrollbar {
